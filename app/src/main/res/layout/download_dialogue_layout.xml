@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/alert_dialog_bg_selector"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <!-- 下载标题 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:text="正在下载"
+        android:textColor="@color/color_15"
+        android:textSize="@dimen/tSize16"
+        android:layout_marginLeft="@dimen/width10"
+        android:gravity="center"
+        android:id="@+id/download_page_tip"
+        android:layout_height="@dimen/width40" />
+
+    <!-- 进度条 -->
+    <com.goldcard.igas.widget.NumberProgressBar
+        android:id="@+id/download_progress"
+        android:layout_width="match_parent"
+        android:layout_below="@id/download_page_tip"
+        custom:progress="0"
+        android:paddingLeft="@dimen/width20"
+        android:paddingRight="@dimen/width20"
+        style="@style/NumberProgressBar_Default"
+        android:layout_height="@dimen/width40" />
+</LinearLayout>

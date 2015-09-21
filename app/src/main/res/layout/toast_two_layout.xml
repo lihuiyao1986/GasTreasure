@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toast_two_bg_selector"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="@dimen/width40"
+    android:layout_marginRight="@dimen/width40"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_10"
+        android:textSize="@dimen/tSize13"
+        android:paddingRight="@dimen/width20"
+        android:id="@+id/toast_two_msg"
+        android:paddingLeft="@dimen/width20"
+        android:layout_marginTop="@dimen/width20"
+        android:layout_marginBottom="@dimen/width20"
+        android:text="dddddddddd"/>
+</RelativeLayout>

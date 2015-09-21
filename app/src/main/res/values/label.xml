@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <!--二维码扫描-->
+     <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+     <string name="scan_title">扫描二维码</string>
+     <string name="scan_error">扫描出错</string>
+     <string name="scan_album">相册</string>
+     <string name="scan_scaning">正在扫描...</string>
+     <string name="scan_pick_img">选择二维码图片</string>
+
+     <!--我的二维码页面-->
+     <string name="my_qrcode_title">我的二维码</string>
+
+     <!--微信没有安装提示-->
+     <string name="common_nowebchat_install">您的手机没有安装微信</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/width10"
+    android:background="@drawable/alert_dialog_bg_selector" >
+
+    <!-- 标题 begin -->
+    <TextView
+        android:id="@+id/alert_view_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/width15"
+        android:paddingTop="@dimen/width15"
+        android:text="提示"
+        android:textColor="@color/color_9"
+        android:textSize="@dimen/tSize20"
+        android:visibility="gone" />
+    <!-- 标题 end -->
+
+    <!-- 消息 begin -->
+    <TextView
+        android:id="@+id/alert_view_message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alert_view_title_tv"
+        android:layout_marginTop="@dimen/width30"
+        android:gravity="center_vertical"
+        android:maxLines="4"
+        android:singleLine="false"
+        android:text=""
+        android:textColor="@color/color_9"
+        android:textSize="@dimen/tSize20" />
+    <!-- 消息 end -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alert_view_message_tv"
+        android:layout_marginTop="23dp"
+        android:gravity="bottom" >
+
+        <!-- 取消按钮 begin -->
+
+        <LinearLayout
+            android:id="@+id/alert_view_cancel_btn_ll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center" >
+            <Button
+                android:id="@+id/alert_view_cancel_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alert_dialog_cancel_btn_selector"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/color_6"
+                android:textSize="@dimen/tSize19"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <!-- 取消按钮 end -->
+
+        <!-- 确定按钮 begin -->
+        <LinearLayout
+            android:id="@+id/alert_view_sure_btn_ll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone" >
+            <Button
+                android:id="@+id/alert_view_sure_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alert_dialog_sure_btn_selector"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/color_10"
+                android:textSize="@dimen/tSize19"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <!-- 确定按钮 end -->
+    </LinearLayout>
+</RelativeLayout>

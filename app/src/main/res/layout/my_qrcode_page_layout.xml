@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg_color"
+    android:orientation="vertical"
+    >
+
+    <!--导航-->
+    <FrameLayout
+        style="@style/nav_bar_one_bg_style"
+        android:id="@+id/nav_bar"
+        />
+
+    <!--图片-->
+    <ImageView
+        android:scaleType="fitCenter"
+        android:id="@+id/my_qrcode_image"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/width200"
+        android:layout_height="@dimen/width200" />
+
+</RelativeLayout>

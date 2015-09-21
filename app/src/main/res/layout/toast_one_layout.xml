@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    >
+     <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert_dialog_bg_selector"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/width20"
+        android:layout_marginRight="@dimen/width20"
+        android:paddingBottom="@dimen/width20"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:text="提示"
+            android:id="@+id/toast_one_title"
+            android:textColor="@color/color_26"
+            android:textSize="@dimen/tSize16"
+            android:gravity="center"
+            android:layout_height="@dimen/width40" />
+        <View
+            android:layout_marginLeft="@dimen/width10"
+            android:layout_marginRight="@dimen/width10"
+            android:layout_below="@id/toast_one_title"
+            android:id="@+id/toast_one_seperator"
+            style="@style/horizontal_seperator_line_style"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:layout_below="@id/toast_one_seperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_15"
+            android:textSize="@dimen/tSize14"
+            android:paddingRight="@dimen/width20"
+            android:id="@+id/toast_one_msg"
+            android:paddingLeft="@dimen/width20"
+            android:layout_marginTop="@dimen/width20"
+            android:text="您收入过完，快点来洗车吧,您收入过完"/>
+
+    </LinearLayout>
+</FrameLayout>

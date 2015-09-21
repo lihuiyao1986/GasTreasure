@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/nav_bar_one_bg_style"
+    android:id="@+id/nav_bar_rr">
+
+    <!-- 左边按钮 -->
+    <Button
+        style="@style/nav_bar_one_left_btn_style"
+        android:id="@+id/left_nav_bar"
+        />
+
+    <TextView
+        android:id="@+id/nav_bar_one_center_tv"
+        style="@style/nav_bar_one_center_tv_style"
+        />
+
+    <!-- 右边按钮 -->
+    <Button
+        style="@style/nav_bar_one_right_btn_style"
+        android:id="@+id/right_nav_bar"
+        />
+
+    <!--底部分割线-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width2"
+        android:layout_below="@id/nav_bar_one_center_tv"
+        android:background="@drawable/nav_bar_shadow"
+        />
+</RelativeLayout>

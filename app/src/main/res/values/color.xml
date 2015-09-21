@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_1">#f7a446</color>
+    <color name="color_2">#4193cd</color>
+    <color name="color_3">#f39b36</color>
+    <color name="color_4">#6c6c6c</color>
+    <color name="color_5">#242424</color>
+    <color name="color_6">#939292</color>
+    <color name="color_7">#93d3ff</color>
+    <color name="color_8">#393939</color>
+    <color name="color_9">#191919</color>
+    <color name="color_10">#ffffff</color>
+    <color name="color_11">#545454</color>
+    <color name="color_12">#2780be</color>
+    <color name="color_13">#e7e8e9</color>
+    <color name="color_14">#323232</color>
+    <color name="color_15">#414141</color>
+    <color name="color_16">#4e4e4e</color>
+    <color name="color_17">#131313</color>
+    <color name="color_18">#33abff</color>
+    <color name="color_19">#edf0f2</color>
+    <color name="color_20">#b2b2b2</color>
+    <color name="color_21">#4c4c4c</color>
+    <color name="color_22">#ededeb</color>
+    <color name="color_23">#e3e3e3</color>
+    <color name="color_24">#999999</color>
+    <color name="color_25">#66aad9</color>
+    <color name="color_26">#666666</color>
+    <color name="color_27">#4193cd</color>
+    <color name="color_28">#e3e2e2</color>
+    <color name="color_29">#f8732a</color>
+    <color name="color_30">#4d9bd1</color>
+    <color name="color_31">#f9f9f9</color>
+    <color name="color_32">#e0e0e0</color>
+    <color name="color_33">#dddcdc</color>
+    <color name="color_34">#f6f6f6</color>
+    <color name="color_35">#dddddd</color>
+    <color name="color_36">#d3d3d3</color>
+    <color name="color_37">#f2f2f2</color>
+    <color name="color_38">#cecece</color>
+    <color name="color_39">#959595</color>
+    <color name="color_40">#92c048</color>
+    <color name="color_41">#e8e8e8</color>
+    <color name="color_42">#627684</color>
+    <color name="color_43">#4d5d69</color>
+    <color name="color_44">#7c8e9a</color>
+    <color name="color_45">#9bb9af</color>
+    <color name="color_46">#222c34</color>
+    <color name="color_47">#cbcbcb</color>
+    <color name="color_48">#f94848</color>
+    <color name="color_49">#9a9c9b</color>
+    <color name="color_50">#dcdcdc</color>
+
+    <!-- 默认的背景色 -->
+    <color name="default_bg_color">@color/color_37</color>
+    <color name="order_pg_tv_no_hint_color">@color/color_24</color>
+    <color name="order_pg_tv_yes_hint_color">@color/color_15</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="nav_one_bg_color">#fafafa</color>
+    <color name="nav_one_bg_font_color">#ff8430</color>
+
+    <!--二维码扫描-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

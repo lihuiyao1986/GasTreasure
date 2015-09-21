@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- http请求超时时间 -->
+    <string name="http_time_out">600</string>
+
+    <!-- http请求的地址 -->
+    <string name="base_api_url">http://server.jkepay.com:14667/</string>
+
+    <!--百度地址联想查询url-->
+    <string name="baidu_place_query_url">http://api.map.baidu.com/place/v2/search</string>
+
+    <!-- 查询版本升级对应的url -->
+    <string name="version_update_url">/v1/man/user/get_soft_version</string>
+
+    <!--下载-->
+    <string name="download_url_null">下载连接为空</string>
+    <string name="download_local_path_null">本地路径为空</string>
+    <string name="download_local_filename_null">本地文件名为空</string>
+    <string name="download_network_off">网络已断开</string>
+    <string name="download_error_code">9999</string>
+
+    <!--获取版本号-->
+    <string name="GetVersionUrl">common/getVersions</string>
+    <!--修改用户信息-->
+    <string name="ModifyUserInfo">user/modifyUser</string>
+    <!--购气下单-->
+    <string name="GasBuyOrderUrl">transaction/buyGasOrder</string>
+    <!--微信支付下单-->
+    <string name="WebchatPayOrderUrl">transaction/wxPayOrder</string>
+    <!--支付宝下单接口-->
+    <string name="AlipayOrderUrl">transaction/aliPayOrder</string>
+    <!--连连支付下单接口-->
+    <string name="LLPayOrderUrl">transaction/placeYTOrder</string>
+
+</resources>

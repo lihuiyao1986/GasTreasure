@@ -1,0 +1,187 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--popWindow的样式-->
+    <style name="popWindowStyle" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/out_to_bottom</item>
+    </style>
+
+    <!-- 对话框的样式 -->
+    <style name="mydialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 导航栏one的背景样式 -->
+    <style name="nav_bar_one_bg_style">
+        <item name="android:background">@color/nav_one_bg_color</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">@dimen/width46</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- 导航栏one的样式 -->
+    <style name="nav_bar_one_btn_style">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/width44</item>
+        <item name="android:textColor">@color/nav_one_bg_font_color</item>
+        <item name="android:paddingLeft">@dimen/width10</item>
+        <item name="android:paddingRight">@dimen/width15</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tSize16</item>
+    </style>
+
+    <!-- 左one导航按钮的样式 -->
+    <style name="nav_bar_one_left_btn_style" parent="nav_bar_one_btn_style">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">@dimen/tSize14</item>
+    </style>
+
+    <!-- 右one导航按钮的样式 -->
+    <style name="nav_bar_one_right_btn_style" parent="nav_bar_one_btn_style">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/tSize14</item>
+    </style>
+
+    <!--one导航中间提示文字的样式-->
+    <style name="nav_bar_one_center_tv_style" parent="nav_bar_one_btn_style">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/tSize20</item>
+    </style>
+
+    <!-- 导航底部的分割线 -->
+    <style name="nav_bar_one_bottom_seperator_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/width05</item>
+        <item name="android:background">@color/color_23</item>
+    </style>
+
+    <!-- 横向分割线 -->
+    <style name="horizontal_seperator_line_style">
+        <item name="android:background">@color/color_23</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/width05</item>
+    </style>
+
+    <!-- 纵向分割线 -->
+    <style name="vertical_seperator_line_style">
+        <item name="android:background">@color/color_23</item>
+        <item name="android:layout_width">@dimen/width05</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 确认按钮 -->
+    <style name="confirm_btn_style">
+        <item name="android:textSize">@dimen/tSize16</item>
+        <item name="android:textColor">@drawable/confirm_font_color_selector</item>
+        <item name="android:background">@drawable/confirm_btn_bg_color_selector</item>
+    </style>
+
+    <!-- editText的样式 -->
+    <style name="edit_txt_style">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/tSize14</item>
+        <item name="android:textColor">@color/color_11</item>
+    </style>
+
+    <!-- 正常按钮样式 -->
+    <style name="normal_btn_style">
+        <item name="android:background">@drawable/btn_one_bg_selector</item>
+        <item name="android:textSize">@dimen/tSize14</item>
+        <item name="android:textColor">@color/color_10</item>
+    </style>
+
+    <!-- 自定义Dialog -->
+    <style name="loading_one_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- spot dialog -->
+    <style name="SpotsDialogDefault" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loading…</item>
+        <item name="DialogSpotCount">5</item>
+    </style>
+
+    <!--loading textView-->
+    <declare-styleable name="LoadingTextView">
+        <attr name="dotsColor" format="color" />
+        <attr name="period" format="integer" />
+        <attr name="jumpHeight" format="integer" />
+        <attr name="autoplay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress" format="integer"/>
+        <attr name="max" format="integer"/>
+
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+
+        <attr name="progress_text_offset" format="dimension"/>
+
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+</resources>

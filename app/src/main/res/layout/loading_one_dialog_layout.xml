@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/loading_one_dialog_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/loading_one_dl_ll"
+    android:padding="@dimen/width15">
+
+    <ImageView
+        android:id="@+id/spinnerImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@anim/loading_one_dialog_anim" />
+
+    <TextView
+        android:layout_below="@id/spinnerImageView"
+        android:id="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/width8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textColor="@color/color_10" />
+
+</RelativeLayout>

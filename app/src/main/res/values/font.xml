@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体大小 -->
+    <dimen name="tSize10">10sp</dimen>
+    <dimen name="tSize12">12sp</dimen>
+    <dimen name="tSize13">13sp</dimen>
+    <dimen name="tSize14">14sp</dimen>
+    <dimen name="tSize15">15sp</dimen>
+    <dimen name="tSize16">16sp</dimen>
+    <dimen name="tSize18">18sp</dimen>
+    <dimen name="tSize19">19sp</dimen>
+    <dimen name="tSize20">20sp</dimen>
+    <dimen name="tSize22">22sp</dimen>
+    <dimen name="tSize23">23sp</dimen>
+    <dimen name="tSize25">25sp</dimen>
+    <dimen name="tSize30">30sp</dimen>
+    <dimen name="tSize35">35sp</dimen>
+    <dimen name="tSize40">40sp</dimen>
+</resources>

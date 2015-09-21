@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="width05">0.5dp</dimen>
+    <dimen name="width1">1.0dp</dimen>
+    <dimen name="width2">2dp</dimen>
+    <dimen name="width5">5dp</dimen>
+    <dimen name="width8">8dp</dimen>
+    <dimen name="width10">10dp</dimen>
+    <dimen name="width12">12dp</dimen>
+    <dimen name="width15">15dp</dimen>
+    <dimen name="width16">16dp</dimen>
+    <dimen name="width18">18dp</dimen>
+    <dimen name="width20">20dp</dimen>
+    <dimen name="width22">22dp</dimen>
+    <dimen name="width25">25dp</dimen>
+    <dimen name="width46">46dp</dimen>
+    <dimen name="width30">30dp</dimen>
+    <dimen name="width34">34dp</dimen>
+    <dimen name="width38">38dp</dimen>
+    <dimen name="width40">40dp</dimen>
+    <dimen name="width41">41dp</dimen>
+    <dimen name="width44">44dp</dimen>
+    <dimen name="width45">45dp</dimen>
+    <dimen name="width48">48dp</dimen>
+    <dimen name="width50">50dp</dimen>
+    <dimen name="width52">52dp</dimen>
+    <dimen name="width60">60dp</dimen>
+    <dimen name="width65">65dp</dimen>
+    <dimen name="width70">70dp</dimen>
+    <dimen name="width80">80dp</dimen>
+    <dimen name="width90">90dp</dimen>
+    <dimen name="width95">95dp</dimen>
+    <dimen name="width120">120dp</dimen>
+    <dimen name="width150">150dp</dimen>
+    <dimen name="width200">200dp</dimen>
+    <dimen name="width250">250dp</dimen>
+    <dimen name="width112">112dp</dimen>
+    <dimen name="width220">220dp</dimen>
+</resources>

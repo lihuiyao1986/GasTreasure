@@ -1,0 +1,21 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <!-- 应用程序名称 -->
+    <string name="app_name">金管家</string>
+    <string name="app_name_en">GasTreasure</string>
+
+    <!-- 服务端版本号 -->
+    <string name="server_version">1.0.0</string>
+    <string name="sign_key">0123456789</string>
+
+    <!-- 是否是调试模式 1:是 0:不是 -->
+    <string name="isDebug">1</string>
+
+    <!-- 百度地图apiKey -->
+    <string name="baidu_map_api_key">WxPvlQwXxNEHxkRsWdQZqyz6</string>
+    <string name="baidu_mcode">68:DD:54:57:59:38:F9:FF:A4:EB:4D:B6:DD:3F:FF:C7:98:96:B9:9B;cheletong.com.washcar</string>
+
+    <!--微信支付对应appId-->
+    <string name="webchat_app_id">wxdab37dc2a3ba8242</string>
+
+</resources>
